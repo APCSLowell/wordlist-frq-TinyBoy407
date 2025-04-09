@@ -16,8 +16,8 @@ public class WordList
       if(myList.get(i).length() == len){
         count++;
       }
-      return count;
     }
+    return count;
   }
 
   public void removeWordsOfLength(int len)
